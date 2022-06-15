@@ -40,7 +40,7 @@ if(myArr[0]==="s"){
 const repos = document.getElementById("repos")
 repos.innerHTML = `Number of public repositories: ${myObj.public_repos}`
 
-document.getElementById("justForFun").innerHTML = `chances of employment after this display? ${myObj.hireable}`
+document.getElementById("justForFun").innerHTML = `Chances of employment after this display? ${myObj.hireable}`
 }
 
 //function to take input value and fetch. i have only just learnt this
@@ -58,7 +58,7 @@ function takeInput(){
         console.log(networkError.message)
     }).then((jsonResponse)=>{
         renderResponse(jsonResponse)
-    })
+    }) 
 }
 //statement to listen for click of submit and the run function takeInput
 submit.addEventListener('click',takeInput)
