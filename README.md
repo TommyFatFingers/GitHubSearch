@@ -5,7 +5,7 @@ created for a technical job application
 
 ## before using!
 If you have recieved zip file via gmail
-make sure to rename main.js.txt to main.js
+make sure to rename /resources/scripts/main.txt to main.js
 ### using
 * javascript
 * css
