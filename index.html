@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- i was getting an annoying icon error but this suggestion fixes it
+        https://stackoverflow.com/questions/31075893/im-getting-favicon-ico-error-->
+        <link rel="shortcut icon" href="#">
+        <title>Toms' GitHub Search</title>
+        <link rel="stylesheet" href="./resources/css/style.css">
+        <!-- fancy font link-->
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Covered+By+Your+Grace" />
+    
+        
+        <!-- octokit - use js wrapper for rest api
+        <script type="module">
+            import { Octokit, App } from "https://cdn.skypack.dev/octokit";  dont think i need this actually-->
+            </script>
+
+    </head>
+    <body>
+        <header>
+            <h1>Tom's GitHub Search</h1>
+        </header>
+        <main>           
+            <form id="form">
+                
+                <label for="input">
+                        <h4>Type in a name and click Submit<br>
+                            to find a GitHub profile
+                    </h4>
+                </label>
+                    
+                <input type="text" name="input" id="input" value="TommyFatFingers">
+                <!-- has to be button instead of submit otherwise info retrieved does not persist on page-->
+                <input type="button" value="Submit" id="submit">
+            </form>
+
+            <!-- only needed during building
+                <div id="responseField">
+
+            </div> -->
+            <section class="output"><div>
+                    <img id="userPic"/>
+                    </div>
+                    <div id="userName">
+
+                    </div>
+                    <div id="link">
+                    
+                    </div>
+                    <div id="repos">
+
+                    </div>
+                    <div id="justForFun">
+
+                    </div>
+                
+            </section>
+        </main>
+        <footer>
+            
+        </footer>
+        <!-- the script is here while i figure out onload, promises & async and such-->
+        <script type= "text/javascript" src="./resources/scripts/main.js"></script>
+    </body>
+</html>

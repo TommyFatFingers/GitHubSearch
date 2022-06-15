@@ -1,0 +1,33 @@
+h1{
+    font-family: "covered By Your Grace";
+    color: rgb(10,100,100);
+    text-shadow: 1px 1px rgba(255,255,255,0.8)
+}
+
+body{
+    text-align: center;
+}
+.output{
+    padding-bottom: 1em;
+}  
+
+#userPic{
+    padding-bottom: 1em;
+}
+
+#userName{
+    padding-bottom: 1em;
+}
+
+#link{
+    padding-bottom: 1em;
+}
+
+#repos{
+    padding-bottom: 1em;
+}
+
+#justForFun{
+    padding-bottom: 1em;
+    
+}
